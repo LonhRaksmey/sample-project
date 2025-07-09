@@ -1,8 +1,8 @@
 from student import Student
 
 # Create student objects
-student1 = Student("Alice", 15, 9)
-student2 = Student("Bob", 16, 10)
+student1 = Student("north smey", 20, 3)
+student2 = Student("optus", 23, 4)
 
 # Print student details
 print(student1.get_details())
