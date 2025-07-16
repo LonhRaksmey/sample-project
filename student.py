@@ -3,6 +3,7 @@ class Student:
         self.name = name
         self.age = age
         self.grade = grade
+        self.is_on_probation = False
 
     def get_details(self):
         return f"Name: {self.name}, Age: {self.age}, Grade: {self.grade}"
