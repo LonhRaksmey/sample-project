@@ -11,3 +11,9 @@ class Student:
     def promote(self):
         self.grade += 1
         return f"{self.name} promoted to grade {self.grade}"
+    def set_on_probation(self):
+        self.is_on_probation = True
+        return f"{self.name} is now on probation"
+    def drop_probation(self):
+        self.is_on_probation = False
+        return f"{self.name} is no longer on probation"
